@@ -19,8 +19,7 @@
                 VerticalAlignment="Top"
                 Margin="25"
                 Content="1Task Create"
-                Style="{StaticResource MaterialDesignPaperSecondaryLightButton}" 
-                
-                Background="#6a5acd"/>
+                Style="{StaticResource MaterialDesignPaperSecondaryLightButton}" Command="{Binding CreateCommand}"
+                Background="#6a5acd" />
     </Grid>
 </Window>
